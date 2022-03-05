@@ -1,3 +1,8 @@
-h3 {
+h3.title {
     color: rgb(6, 16, 126);
+    text-align: center;
+}
+
+div.calc {
+    text-align: center;
 }
