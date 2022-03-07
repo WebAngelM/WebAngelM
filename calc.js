@@ -18,3 +18,6 @@ document.getElementById('div').addEventListener("click", function () {
     res.value =
         parseInt(n1.value) / parseInt(n2.value);
 });
+document.getElementById('clear').addEventListener("click", function () {
+    res.value = ''
+});
