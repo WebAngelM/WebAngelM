@@ -6,6 +6,8 @@ h3.title {
 div.calc {
     text-align: center;
 }
-body.kangaroo {
-
+#kangaroo {
+    width: 100;
+    display: block;
+    margin: 0 auto;
 }
