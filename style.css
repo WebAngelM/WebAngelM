@@ -1,5 +1,5 @@
 h3.title {
-    color: rgb(6, 16, 126);
+    color: rgb(29, 15, 226);
     text-align: center;
 }
 
@@ -7,7 +7,9 @@ div.calc {
     text-align: center;
 }
 #kangaroo {
-    width: 100;
+    border-radius: 50%;
+    width: 60;
+    height: 60;
     display: block;
-    margin: 0 auto;
+    margin: 7 96%;
 }
