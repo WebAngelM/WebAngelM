@@ -21,3 +21,4 @@ document.getElementById('div').addEventListener("click", function () {
 document.getElementById('clear').addEventListener("click", function () {
     res.value = ''
 });
+
