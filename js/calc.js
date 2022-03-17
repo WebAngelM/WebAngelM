@@ -1,5 +1,4 @@
-// import Swup from 'swup';
-const swup = new Swup();
+
 
 
 var n1 = document.getElementById('Num1');

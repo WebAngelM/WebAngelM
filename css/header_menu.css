@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --bg: rgb(81, 82, 95);
+    --bg08: rgb(81, 82, 95, 0.8);
+}
+
+
+/* -------------------------------------------------------------------------- */
+/*                                    Menu                                    */
+/* -------------------------------------------------------------------------- */
+#headerMenu {
+    position: sticky;
+    top: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: minmax(max-content, 15%) minmax(60%, 85%);
+    justify-items: center;
+    align-items: center;
+    line-height: 40px;
+    background: var(--bg);
+}
+
+.logo {
+    color: rgb(87, 158, 250);
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 2.5vw;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+}
+
+.a {
+    color: white;
+    padding: 5px 10px;
+    margin: 0 0.5vw;
+    font-size: 1.25rem;
+    user-select: none;
+}
+
+.a:hover {
+    color: rgb(108, 247, 119);
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgb(51, 131, 252), 0 0 5px rgb(47, 116, 243);
+}
