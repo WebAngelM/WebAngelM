@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+    <script defer src="../js/index.js"></script>
+    <script defer src="../js/calc.js"></script>
+    <link rel="stylesheet" href="../css/page_01.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="headerMenu"></div>
+
+    <main id="swup" class="transition-fade">
+        
+        <h3>This is a Calculator!</h3>
+
+        <div class="calc">
+            <input type="number" placeholder="Number 1" title="Enter Number" id="Num1" /><br />
+            <input type="number" placeholder="Number 2" title="Enter Number" id="Num2" size="5" /><br />
+            <button id="add">+</button>
+            <button id="sub">-</button>
+            <button id="mul">x</button>
+            <button id="div">/</button> <br />
+            <input type="number" placeholder="Result" readonly id="result" /> <br>
+            <button id="clear_res">Clear Result</button>
+            <button id="clear_all">Clear All</button>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
