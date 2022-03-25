@@ -9,13 +9,26 @@ div.calc {
 #add,
 #sub,
 #mul,
-#div {
+#div,
+#clear_res,
+#clear_all {
     background-color: black;
     color: white;
     padding: 4px 10px;
     display: inline-block;
     margin: 4px 5px;
 }
+/* ------------------------------- Calc Hover ------------------------------- */
+
+#add:hover,
+#sub:hover,
+#mul:hover,
+#div:hover,
+#clear_res:hover,
+#clear_all:hover {
+    background-color: rgb(61, 60, 60);
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*                                    Title                                   */

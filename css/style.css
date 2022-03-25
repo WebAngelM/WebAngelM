@@ -27,6 +27,7 @@ h3.title {
 #up {
     position: absolute;
     top: auto;
+    color: blue;
 }
 
 #down {
@@ -79,10 +80,10 @@ h3.hi4 {
     top: 4000;
     left: 50%;
 }
-
-/* div {
+/* 
+div {
     position: relative;
-    animation: mymove 2s infinite;
+    animation: mymove 2s ;
 }
 
 @keyframes mymove {
@@ -93,9 +94,21 @@ h3.hi4 {
     to {
         top: 10%;
     }
-} */
+} */ 
 /* -------------------------------- hi hover -------------------------------- */
 
+h3.hi1:hover {
+    color: rgb(255, 255, 255)
+}
+
+h3.hi2:hover {
+    color: rgb(255, 255, 255)
+}
+
+h3.hi3:hover {
+    color: rgb(255, 255, 255)
+}
+
 h3.hi4:hover {
-    color: rgb(4, 201, 250)
+    color: rgb(255, 255, 255)
 }
