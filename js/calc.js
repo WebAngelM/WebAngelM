@@ -25,4 +25,4 @@ function calc() {
     document.getElementById('clear_all').addEventListener("click", function () {
         res.value = '', n1.value = '', n2.value = '';
     });
-}
+} 
